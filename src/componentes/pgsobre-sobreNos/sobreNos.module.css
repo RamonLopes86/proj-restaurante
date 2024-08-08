@@ -1,0 +1,29 @@
+.box_texto{
+
+    text-align: center;
+    padding: 50px 0px;
+    max-width: 1024px;
+    margin: 0px auto;
+
+}
+
+.box_texto h2{
+
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.box_texto h5 {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.box_texto p{
+
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+}

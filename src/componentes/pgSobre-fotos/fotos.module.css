@@ -1,0 +1,35 @@
+.box_fotos{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+
+
+.img{
+
+    width: 500px;
+    height: 500px;
+    flex-grow: 1;
+}
+
+
+
+@media screen and (max-width:1016px) {
+
+   
+    .img{
+
+        width: 100%;
+        height: 30%;
+        
+       
+    }
+}
+    

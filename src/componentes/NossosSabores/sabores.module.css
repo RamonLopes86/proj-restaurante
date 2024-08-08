@@ -1,0 +1,108 @@
+.box_pai{
+
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.box_Sabores , .box_Eventos , .box_Nos{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+
+
+  
+.img{
+
+  width: 50%;
+  height: 30%;
+ 
+  
+}
+  
+
+.Texto{
+
+    text-align: center;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    width: 50%;
+    height: 30%;
+    
+
+}
+
+   
+
+.Texto h1{
+
+    text-transform: uppercase;    
+}
+
+.Texto h4{
+
+    font-style: italic;
+    
+}
+
+.Texto p {
+
+    max-width: 500px;
+    margin: 0px auto;
+    line-height: 26px;
+    font-style: italic;
+
+} 
+
+
+@media screen and (max-width:891px) {
+
+    .box_Sabores , .box_Nos {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box_Eventos{
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .Texto{
+
+        flex-grow: 1;
+        width: 100%;
+        height: 30%;
+       
+    }
+
+    .img{
+        
+        flex-grow: 1;
+        width: 100%;
+        height: 30%;
+      
+    }
+    
+}
+
+
+
+    
+   
+
+   

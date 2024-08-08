@@ -1,0 +1,60 @@
+
+.img_sorvete{
+
+  width: 300px;
+  height: fit-content;
+  position: absolute;
+  top: 5%;
+}
+
+.box_sorvete h1 {
+
+    color: white;
+    font-size: 2.6rem;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.719);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+
+.box_sorvete{
+
+   background-color:#F9DB79;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 450px;
+   
+}
+
+.box_sorvete .img_sorvete{
+
+    text-align: center;
+}
+
+
+@media screen and (max-width:710px) {
+
+  .box_sorvete .img_sorvete{
+
+        top:15%;
+  }
+
+
+  .box_sorvete h1{
+
+        top:40%;
+
+  }
+
+
+
+}
+
+   
